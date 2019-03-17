@@ -1,0 +1,51 @@
+body {
+  background-color: #DDF7DB;
+  font-family: fantasy;
+}
+#header {
+  background-color: 	#FFA07A;
+  text-align: center;
+  padding: 10px;
+
+}
+#main{
+  background-color: white;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+}
+#products{
+  padding: 5px;
+  float: left;
+  width: auto;
+  width: 150px;
+}
+#navigation{
+  float: right;
+  padding: 15px;
+  width: 750px;
+}
+#Boys{
+
+  background-color: blue;
+}
+#girls{
+
+  background-color: pink;
+}
+footer{
+  clear: both;
+  background-color: grey;
+  padding: 2px;
+}
+.fi{
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+#products ul{
+  list-style-type: none;
+}
