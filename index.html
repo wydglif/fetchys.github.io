@@ -4,76 +4,129 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial scale=1">
   <title> Fetchy's Baby Closet </title>
-  <link rel="stylesheet" type="text/css" href="websitestyle.css" />
+  <link rel="stylesheet" type="text/css" href="homestlyle.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="homepage.js"> </script>
 </head>
 <body>
-  <header id= "home">
-    <div id="menu">
-      <span class="bar"></span>
-    </div>
-    <nav class="nav">
-      <div class="menu-items">
-        <ul>
-          <li><a href="#search">Search</a></li>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#products">Contact Us</a></li>
-          <li><a href="#login">Register/Login</a></li>
-          <li><a href="#story">Our Story</a></li>
-        </ul>
-      </div>
-    </nav>
+  <!--Search Box-->
+  <div class="header">
+  <form class="search-box" action="action_page.php"> <!--style="float:right;display:inline-block;line-height:50px;"-->
+    <input type="text" placeholder="Search.." name="search" >
+    <button type="submit"><i class="fa fa-search"></i></button>
+        <div class="login-register"><span>Login/Register</span></div>
+</form>
+</div>
+  <!--Header Page-->
+<header class="homepage-ul" id="homepage">
+  <div class="bg-image"></div>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a>About Us</a>
+          <ul>
+            <li><a>Vision</a></li>
+            <li><a>Our Story</a></li>
+            <li><a>Giving Back</a></li>
+            </ul>
+            </li>
+      <li><a>Policy</a>
+            <ul>
+              <li><a>Return</a></li>
+              <li><a>Refund</a></li>
+            </ul>
+        </li>
+      <li><a>Catalog</a></li>
+      <li><a href="#"><i style="font-size:24px" class="fa">&#xf07a;</i></a></li>
+      <li><a>Contact Us</a></li>
+    </ul>
     <div class="main-text">
-      <center> <h1> Welcome to Fetchy's B. C. </h1>
+      <center> <h1> Welcome to FEECHY Baby Closet</h1>
           <h2>The home of Baby's Clothes</h2>
           <a href="#" class="btn main-btn">Explore Our Closet</a>
       </center>
   </div>
-</header>
+</header><br>
 
-<div id="main">
+<!--Welcome Page-->
 
-<section class="the-search" id="story">
-  <div class="story-details">
-    <h1 class="home-button">Home</h1>
-    <h2 class="story=keyword">Our Story</h2>
-    <p>We are passionate about dressing babies.</p>
+<div class="welcome">
+  <h1>WELCOME TO FEECHI</h1>
+    <p>Welcome to Feechi Baby Closet, we launched, finally!!!
+       We hope you enjoy shopping with us, don't forget
+       to suscricribe to our news letter below. We are dedicated to
+       serving the population and dressing your ugly babies.</p>
+    </div>
+      <!--Services Page-->
+<div class="services">
+  <div class="info" id="join-mommy">
+    <h3>Join reaching one mommy at a time</h3>
+      <a href="#"> <span>Click Here</span></a>
   </div>
-</section>
-  </div>
-    <div id= "products">
-      <h2> Products </h2>
-      <div id="Boys">
-        <h3> Boys </h3>
-        <ul>
-          <li><a class="fi" href="">0-12 Months</a></li>
-          <li><a class="fi" href="">12-24 Months</a></li>
-        </ul>
-      </div>
-      <div id="girls">
-                <h3> Girls</h3>
-          <ul>
-            <li> <a class="fi" href="">0-12 Months</a></li>
-            <li><a class="fi" href=""> 12-24 Months</a></li>
-          </ul>
-      </div>
-      <div id="tout">
-        <p> All Products </p>
-      </div>
+  <div class="info" id="helping-children">
+    <h3>View our trips around the world and see how you can help around the world</h3>
+      <a href="#"> <span>Click Here</span></a>
 
   </div>
-
-  <div id="navigation">
-    <h2> Thank you</h2>
-    <p>
-      Thank you fore visiting our website, come back to make another purchase.</p>
-
-
+  <div class="info" id="pregnant-mommy">
+    <h3>Are you Expecting a baby? Join us for our monthly subscription</h3>
+      <a href="#"> <span>Click Here</span></a>
+  </div>
 </div>
 
-<footer>
-  <center><p>&copy; 2019 lynnsbabycloset.com</p></center>
-</footer>
-</body>
+  <!--Products Page-->
+  <div id="product-word">
+    <h1>Products</h1><br></div>
+<div id="products">
+    <div class="product-homepage-1" id="girl-summer-clothes">
+      <p>Girl Summer Clothes</p>
+    <!--<figure class="item">
+      <img style="height: 100%; width: 100%; object-fit: contain" src="summergirlclothes.jpg">
+      <figcaption class="caption">Feechi Girl Summer Clothes</figcaption>
+    </figure>-->
+    </div>
+    <div class="product-homepage-1" id="boy-summer-clothes">
+      <span>Feechi Boy Summer Clothes</span>
+    </div>
 
+    <div class="product-homepage-1" id="girl-shoes">
+      <span>Girl Shoes</span>
+    </div>
+    <div class="product-homepage-1" id="boy-shoes">
+      <span>Boy Shoes</span>
+    </div>
+
+    <div class="product-homepage-2" id="current-sales">
+      <span>SALE!!!</span>
+    </div>
+    <div class="product-homepage-2" id="discounted-items">
+      <span>Discounted Items</span>
+    </div>
+
+    <div class="product-homepage-2" id="gason">
+      <span>Unisex</span>
+    </div>
+    <div class="product-homepage-2" id="fille">
+      <span>Discounted Items</span>
+    </div>
+</div>
+
+  <!--Subscribe Page-->
+  <div class="newsletter">
+    <h1>Subscribe to our newsletter!!</h1>
+      <div class= "email-newsletter">
+        <input type="email" placeholder="Email" required>
+        <span class="bar"></span>
+        <button type="submit"><a>Send</a></button>
+      </div>
+  </div>
+<footer>
+    <right><p>&copy; 2019 FEECHI Baby Closet</p></right>
+  </footer>
+
+
+
+</body>
 </html>
